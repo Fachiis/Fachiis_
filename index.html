@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Chocolate Cake</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="recipe.css" />
-    </head> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fachii Zasha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- COVER -->
+    <div class="cover">
 
-    <body>
-        <!-- comments -->
-        <div class="content">
-            <div class="category center"><p class="category">Recipe</p></div>
+      <img class="cover-profile" src="profile.png" alt="Profile Picture">
 
-            <h1>Chocolate cake recipe</h1>
+      <h1>Zasha Fachii</h1>
+      <p>Freelance developer | 2+ years experience</p>
 
-            <div class="separator"></div>
+      <div style="text-align:center">
+        <a class="contact-button" href="mailto:zashafachii@gmail.com?subject=Contact%20me%20on%20the%20project">CONTACT ME</a>
+      </div>
 
-            <div class="center">
-                <p class="description">"Here is a fast and easy version of the classic Chocolate Cake recipe.Enjoy!"</p>
-            </div>
-            <div class="info"> <!-- Parent position -->
-                <img class="center info" src="cake.jpg"/> <!-- child one-->
-                
-                <table class="info"><!-- color: rgba each two code like r=6C g=82 b=9D opacity(transparent), a=50, child 2-->
-                    <tr>
-                        <th>Difficulty</th><th>Preparation</th><th>Cooking</th><th>Total time</th>
-                    </tr>
-                    <tr>
-                        <td>Easy</td><td>10 min</td><td>25 min</td><td>35 min</td>
-                    </tr>
-                </table> 
-            </div>
+      <div class="cover-contact">
+        <a href="mailto:zashafachii@gmail.com?subject=Contact%20me%20on%20the%20project">zashafachii@gmail.com</a>
+        <a href="Tel:+2348120820611">081 2082 0611</a>
+      </div>
 
-            <div>
-                <div class="col1 col">
-                    <h2>Ingredients</h2>
-                        <div class="ingredients">
-                            <p>Black chocolate: 200g</p>
-                            <p>Sugar: 150g</p>
-                            <p>Butter: 200g</p>
-                            <p>Eggs: 4</p>
-                            <p>Flour: 80g</p>
-                        </div>
-                </div>
+    </div>
 
-                <div class="col2 col">
-                    <h2>Instructions</h2>
-                        <table class="instructions">
-                            <tr><td><p class="number">1</p></td><td class="instruction_step">Melt the chocolate and the butter together</td></tr>
-                            <tr><td><p class="number">2</p></td><td class="instruction_step">Mix the sugar, egg and the flour</td></tr>
-                            <tr><td><p class="number">3</p></td><td class="instruction_step">Mix everything to get a smooth dough</td></tr>
-                            <tr><td><p class="number">4</p></td><td class="instruction_step">Bake in the oven</td></tr>
-                        </table>
-                </div>
-            </div>
+    <!-- GRAY 1 -->
+    <div class="section gray-section-1">
+      <div class="separator"></div>
+      <p>I develop your <b>WEB project</b> or your IOS / Android <b>Mobile Apps</b> from A to Z</p>
+    </div>
+
+    <!-- WHITE -->
+    <div class="section" style="overflow: auto;">
+      <h2>About me</h2>
+      <img class="col-content" src="profile_pic2.jpg" height="50%" width="50%" alt="Profile">
+      <div class="col-content float-right">
+          <div class="text-with-border-line">
+            <p>
+              A <b>full-stack web developer</b>  with two years experience in Django Framework, Web API with Django REST, HTML5, CSS3, Boostrap4 and basic javascript. I am currently learning <b>mobile applications</b> development with Kivy. 
+              <br><br>
+              I have the <b>passion</b> and <b>consistency</b> for growth and job task.
+            </p>
+            <a href="https://www.linkedin.com/in/fachii-zasha-1443b6158" target="_blank">More information about me</a>
         </div>
-    </body>
+      </div>  
+    </div>
 
+    <!-- GRAY 2-->
+    <div class="section gray-section-2">
+      <h2>Portfolio</h2>
+      <table class="col-portfolio" style="display: inline-block;">
+        <tr>
+          <td><div class="vertical-line-bar"></div></td>
+          <td><a href="portfolio-restaurant-website.html"><img style="width: 100%;" src="project1small.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align="center"><a href="portfolio-restaurant-website.html">Restaurant website</a></td>
+        </tr>
+      </table>
+
+      <table  class="float-right col-portfolio">
+        <tr>
+          <td><div class="vertical-line-bar"></div></td>
+          <td><a href="portfolio-ai-mobile-app.html"><img style="width: 100%;" src="project2small.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align="center"><a href="portfolio-ai-mobile-app.html">"AI" mobile app</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- WHITE -->
+    <div class="section">
+      <iframe src="contact-frame.html" scrolling="no"></iframe>
+    </div>
+
+  </body>
 </html>
